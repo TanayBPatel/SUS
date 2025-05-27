@@ -4,7 +4,7 @@ import React from 'react';
 
 const DownloadAPKButton = () => {
   const handleDownload = () => {
-    const apkFilename = 'app-release.apk'; // Must be in /public
+    const apkFilename = 'Android.apk'; // Must be in /public
     const apkUrl = `/${apkFilename}`;
 
     const link = document.createElement('a');
